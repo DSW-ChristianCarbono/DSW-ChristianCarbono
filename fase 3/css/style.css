@@ -68,6 +68,9 @@ img {
     background-repeat: no-repeat;
     background-position: center center;
 }
+.header2 {
+    height: 15rem;
+}
 .header__texto {
    text-align: center;
    color: var(--blanco);
@@ -123,6 +126,9 @@ img {
 .entrada {
     border-bottom: 1px solid var(--gris);
     margin-bottom: 2rem;
+}
+.entrada__imagen .small img {
+    width: 15rem;
 }
 .entrada:last-of-type {
     border: none;
@@ -252,4 +258,22 @@ img {
 }
 .campo__field--textarea {
     height: 20rem;
+}
+
+.autor {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.autor img {
+    border-radius: 5rem;
+}
+
+.autor .entrada__contenido {
+    margin-left: 3rem;
+}
+
+.text-center {
+    text-align: center;
 }
